@@ -1,0 +1,8 @@
+datasource:
+  mongo:
+    url: ${MONGO_URL_SPRING}
+  postgres:
+    url: ${POSTGRES_URL}
+    user: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    db: ${POSTGRES_DB}
